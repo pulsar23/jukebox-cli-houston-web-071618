@@ -31,7 +31,19 @@ def play(songs)
   puts "Please enter a song name or number:"
   choice = gets.chomp
   
-
+  if valid_commands.include?(choice)
+    puts "Command is valid"
+    if choice.length == 1
+      choice = choice.to_i
+      selection = songs[choice-1]
+    else
+      choice = choice.to_i
+      selection = songs.index(choice)
+    end
+    puts "Playing <#{selection}>"
+  else
+    puts "Invalid input, please try again."
+  end
 
 end #play
 
