@@ -56,12 +56,13 @@ def run
        play(songs)
       when "exit"
        exit_jukebox
+       break
      else
        puts "Invalid command"
        puts "==============="
     end
-    break if  value == "exit"
-  end
+    
+  end #loop do
   
   
 end
