@@ -48,15 +48,18 @@ def run
     value = gets.chomp
     
     case value
-    when "help"
-      help
-    when "list"
-      list(songs)
-    when "play"
-      play(songs)
-    when "exit"
-      exit_jukebox
-    else
+      when "help"
+       help
+      when "list"
+       list(songs)
+      when "play"
+       play(songs)
+      when "exit"
+       exit_jukebox
+     else
+       puts "Invalid command"
+       puts "==============="
+    end
     break if  value == "exit"
   end
   
