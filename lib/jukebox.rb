@@ -26,6 +26,7 @@ def play(songs)
   choice = gets.chomp
   
   if valid_commands.include?(choice)
+  end
 
   
 end
@@ -37,6 +38,7 @@ def list(songs)
 end
 
 def exit_jukebox
+  puts "Goodbye"
 end
 
 def run 
