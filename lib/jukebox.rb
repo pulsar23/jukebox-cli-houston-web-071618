@@ -48,7 +48,14 @@ def run
     value = gets.chomp
     
     case value
-    when 
+    when "help"
+      help
+    when "list"
+      list(songs)
+    when "play"
+      play(songs)
+    when "exit"
+      exit_jukebox
     break if  value == "exit"
   end
   
