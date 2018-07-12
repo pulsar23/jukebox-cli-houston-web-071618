@@ -53,14 +53,8 @@ def play(my_songs)
   #get the file path of the song by looking it up in the my_songs hash
   
   valid_commands = my_songs.keys
-  length = songs.length
-  max_num = length
-  numbers = *(1..max_num)
-  numbers.map!(&:to_s)
 
-  valid_commands = songs + numbers
-  
-  puts "Please enter a song name or number:"
+  puts "Please enter a song name:"
   choice = gets.chomp
   
   if valid_commands.include?(choice)
