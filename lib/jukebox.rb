@@ -19,10 +19,12 @@ def help
 end
 
 def play(songs)
+  commands_array = ["help", "list", "play", "exit"]
+  
   puts "Please enter a song name or number:"
   choice = gets.chomp
   
-  if choice.include?("")
+  if commands_array.include?(choice) || commands_array.include(songs)
 
   
 end
