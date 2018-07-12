@@ -60,7 +60,7 @@ def play(my_songs)
   if valid_commands.include?(choice)
     puts "Playing <#{choice}>"
     value = my_songs.fetch(choice)
-    system "open <#{value}>"
+    system 'open <value>'
   else
     puts "Invalid input, please try again."
   end
