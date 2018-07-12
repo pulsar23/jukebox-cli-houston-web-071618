@@ -38,19 +38,17 @@ def play(songs)
     puts "Invalid input, please try again."
   end
 
-
-  
-end
+end #play
 
 def list(songs) 
   songs.each_with_index do |title, index|
   puts "#{index+1}. #{title}"
   end
-end
+end #list
 
 def exit_jukebox
   puts "Goodbye"
-end
+end #exit_jukebox
 
 def run 
   #Show user available commands by calling help method
@@ -76,6 +74,4 @@ def run
      end
     
   end #loop do
-  
-  
-end
+end # run
