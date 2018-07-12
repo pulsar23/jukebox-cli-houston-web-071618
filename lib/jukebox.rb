@@ -43,10 +43,10 @@ end
 
 def run 
   help
-  do 
+  loop do 
     puts "Please enter a command:"
     value = gets.chomp
-  while value != "exit"
+    break if  value != "exit"
   
   
 end
