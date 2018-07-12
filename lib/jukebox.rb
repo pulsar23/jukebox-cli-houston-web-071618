@@ -37,7 +37,6 @@ def play(songs)
       choice = choice.to_i
       selection = songs[choice-1]
     else
-      choice = choice.to_i
       selection = songs.index(choice)
     end
     puts "Playing <#{selection}>"
