@@ -58,14 +58,8 @@ def play(my_songs)
   choice = gets.chomp
   
   if valid_commands.include?(choice)
-    puts "Command is valid"
-    if choice.length == 1
-      choice = choice.to_i
-      selection = songs[choice-1]
-    else
-      selection = choice
-    end
-    puts "Playing <#{selection}>"
+    puts "Playing <#{choice}>"
+    value = 
   else
     puts "Invalid input, please try again."
   end
