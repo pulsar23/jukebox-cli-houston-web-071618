@@ -16,7 +16,7 @@
  "Go Go GO" => '../audio/Emerald-Park/01.mp3',
  "LiberTeens" => '../audio/Emerald-Park/02.mp3',
  "Hamburg" =>  '../audio/Emerald-Park/03.mp3',
- "Guiding Light" => '../audio/Emerald-Park/04.mp3',
+ "Guiding Light" => '/home/pulsar23/jukebox-cli-houston-web-071618/audio/Emerald-Park/04.mp3',
  "Wolf" => '../audio/Emerald-Park/05.mp3',
  "Blue" => '../audio/Emerald-Park/06.mp3',
  "Graduation Failed" => '../audio/Emerald-Park/07.mp3'
