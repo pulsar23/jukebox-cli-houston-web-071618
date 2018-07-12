@@ -31,11 +31,7 @@ def play(songs)
   puts "Please enter a song name or number:"
   choice = gets.chomp
   
-  if valid_commands.include?(choice)
-    puts "Command is valid"
-  else
-    puts "Invalid input, please try again."
-  end
+
 
 end #play
 
