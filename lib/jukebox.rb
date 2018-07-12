@@ -61,7 +61,7 @@ def run
        break
       else
        puts "Invalid command"
-       puts "==============="
+       puts "===================="
      end
     
   end #loop do
