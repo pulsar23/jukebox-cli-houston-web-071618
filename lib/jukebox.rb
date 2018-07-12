@@ -20,6 +20,8 @@ end
 
 def play(songs_array)
   songs_array.each_with_index
+  
+  
 end
 
 def list 
