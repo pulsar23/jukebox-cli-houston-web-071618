@@ -19,14 +19,8 @@ def help
 end
 
 def play(songs)
-  commands_array = ["help", "list", "play", "exit"]
-  valid_commands = commands_array.concat(songs)
-  
-  puts "Please enter a song name or number:"
-  choice = gets.chomp
-  
-  if valid_commands.include?(choice)
-  end
+
+
 
   
 end
