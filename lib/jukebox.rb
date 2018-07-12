@@ -26,7 +26,7 @@ def play(songs)
   numbers = *(1..max_num)
   numbers.map!(&:to_s)
 
-  valid_commands = songs.concat(numbers)
+  valid_commands = songs + numbers
   
   puts "Please enter a song name or number:"
   choice = gets.chomp
