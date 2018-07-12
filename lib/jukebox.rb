@@ -20,11 +20,12 @@ end
 
 def play(songs)
   commands_array = ["help", "list", "play", "exit"]
+  valid_commands = commands_array.concat(songs)
   
   puts "Please enter a song name or number:"
   choice = gets.chomp
   
-  if commands_array.include?(choice) || commands_array.include(songs)
+  if valid_commands.include?(choice)
 
   
 end
