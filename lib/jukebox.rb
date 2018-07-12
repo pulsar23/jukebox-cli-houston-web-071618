@@ -20,6 +20,23 @@ end
 
 def play(songs)
 
+  valid_commands = []
+  length = songs.length
+  max_num = length
+  numbers = *(1..max_num)
+  numbers.map!(&:to_s)
+
+  valid_commands = songs.concat(numbers)
+  puts "valid_commands = #{valid_commands}"
+  
+  puts "Please enter a song name or number:"
+  choice = gets.chomp
+  
+  if valid_commands.include?(choice)
+    puts "Command is valid"
+  else
+    puts "Invalid input, please try again."
+  end
 
 
   
