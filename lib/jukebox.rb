@@ -46,6 +46,7 @@ def run
   loop do 
     puts "Please enter a command:"
     value = gets.chomp
+     
     break if  value == "exit"
   end
   
