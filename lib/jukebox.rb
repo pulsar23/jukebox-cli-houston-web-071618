@@ -50,7 +50,7 @@ def exit_jukebox
   puts "Goodbye"
 end #exit_jukebox
 
-def run 
+def run(songs) 
   #Show user available commands by calling help method
   help
   
