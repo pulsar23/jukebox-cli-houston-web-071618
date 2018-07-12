@@ -42,7 +42,9 @@ def exit_jukebox
 end
 
 def run 
+  #Show user available commands by calling help method
   help
+  
   loop do 
     puts "Please enter a command:"
     value = gets.chomp
@@ -57,10 +59,10 @@ def run
       when "exit"
        exit_jukebox
        break
-     else
+      else
        puts "Invalid command"
        puts "==============="
-    end
+     end
     
   end #loop do
   
