@@ -18,16 +18,16 @@ def help
   puts "- exit : exits this program"
 end
 
-def play(array)
+def play(songs)
   
-  array.each_with_index do |songs, index|
-    puts "#{index+1}. #{songs}"
-  end
+
   
 end
 
-def list 
-  
+def list(songs) 
+  songs.each_with_index do |title, index|
+  puts "#{index+1}. #{title}"
+  end
 end
 
 def exit_jukebox
